@@ -13,7 +13,7 @@
     <form id="places-form">
         <label for="city">City</label>
         <input type="text" id="city-name">
-        <label for="landmark" id="landmark-name">Landmark</label>
+        <label for="landmark">Landmark</label>
         <input type="text" id="landmark-name">
         <label for="time">Time</label>
         <input type="text" id="time-of-year">
@@ -21,6 +21,19 @@
         <input type="text" id="notes">
         <button type="submit">Add place</button>
     </form>
+
+    <h2>Places</h2>
+
+    <div id="places-list">
+
+    </div>
+
+    <div id="places-details" class="hidden">
+        <p>City Name: <span id="city-output"></span></p>
+        <p>Landmarks: <span id="landmark-output"></span></p>
+        <p>Time: <span id="time-output"></span></p>
+        <p>Notes: <span id="notes-output"></span></p>
+    </div>
 </body>
 
 </html>
